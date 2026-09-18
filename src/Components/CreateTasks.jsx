@@ -33,7 +33,7 @@ export const CreateTasks = () => {
         }
     }
     return <>
-        <form onSubmit={handleSubmit(createTask)}>
+        <form className="taskCreateForm" onSubmit={handleSubmit(createTask)}>
             <select {...register('category')}>
                 {categories.map(category => {
                     return (

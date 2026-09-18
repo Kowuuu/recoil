@@ -1,4 +1,4 @@
-import {atom} from "jotai";
+import {atom} from "recoil";
 import {localStorageEffect} from "../Effects/localStorageEffect";
 
 export const userState=atom({
